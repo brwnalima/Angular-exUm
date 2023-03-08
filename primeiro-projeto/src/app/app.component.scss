@@ -1,0 +1,47 @@
+.full-content {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 60%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 5%;
+    
+    .container-title {
+      text-align: left;
+      padding: 30px;
+      color: #2c1c0c;
+      padding-top: 50px;
+  
+      h1 {
+        font-size: 60px;
+        font-weight: bolder;
+      }
+  
+      hr {
+        position: absolute; 
+        top: 305px;
+        width: 5%; 
+        height: 4px; 
+        background-color: #2c1c0c;
+        border: none;
+      }
+  
+      span {
+        font-size: 18px;
+        font-weight: bold;
+      }
+  
+      p {
+        text-align: left;
+      }
+    }
+  
+    .container-p {
+      padding: 10px;
+      text-align: justify;
+      padding-top: 80px;
+      color: #2c1c0c;
+      font-weight: 500;
+    }
+}
