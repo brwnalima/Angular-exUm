@@ -6,42 +6,80 @@
     justify-content: space-between;
     margin: auto;
     margin-top: 5%;
-    
+
     .container-title {
-      text-align: left;
-      padding: 30px;
-      color: #2c1c0c;
-      padding-top: 50px;
-  
-      h1 {
-        font-size: 60px;
-        font-weight: bolder;
-      }
-  
-      hr {
-        position: absolute; 
-        top: 305px;
-        width: 5%; 
-        height: 4px; 
-        background-color: #2c1c0c;
-        border: none;
-      }
-  
-      span {
-        font-size: 18px;
-        font-weight: bold;
-      }
-  
-      p {
         text-align: left;
-      }
+        padding: 30px;
+        color: #2c1c0c;
+        padding-top: 50px;
+
+        h1 {
+            font-size: 60px;
+            font-weight: bolder;
+        }
+
+        hr {
+            position: absolute;
+            top: 305px;
+            width: 5%;
+            height: 4px;
+            background-color: #2c1c0c;
+            border: none;
+        }
+
+        span {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        p {
+            text-align: left;
+        }
     }
-  
+
     .container-p {
-      padding: 10px;
-      text-align: justify;
-      padding-top: 80px;
-      color: #2c1c0c;
-      font-weight: 500;
+        padding: 10px;
+        text-align: justify;
+        padding-top: 80px;
+        color: #2c1c0c;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .full-content {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+
+        .container-title {
+            text-align: center;
+            padding: 20px;
+            padding-top: 30px;
+
+            h1 {
+                font-size: 40px;
+            }
+
+            hr {
+                top: 120px;
+                width: 40%;
+                height: 3px;
+            }
+
+            span {
+                font-size: 16px;
+            }
+        }
+
+        .container-p {
+            padding: 10px;
+            padding-top: 30px;
+            text-align: justify;
+            font-size: 14px;
+        }
+
     }
 }
