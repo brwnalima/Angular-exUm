@@ -23,6 +23,20 @@ No arquivo app.component.html coloque um texto do lorem ipsum: https://www.lipsu
 $ git clone https://github.com/brwnalima/Angular-exUm
 ```
 
+## 👩🏾‍💻 Digite em seu terminal:
+
+#### Entre no repositório
+
+```sh
+cd primeiro-projeto
+```
+
+#### Inicie o projeto
+
+```sh
+ng serve
+```
+
 ## 📌 Ferramentas utilizadas:
 
 <div style="display: inline_block" align = "left"><br>
