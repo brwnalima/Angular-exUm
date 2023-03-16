@@ -1,26 +1,37 @@
 
-<h1 align="center"> <img width="40px" src="https://user-images.githubusercontent.com/112510971/223874201-427b7405-4ab0-4cfd-9b45-f3504d9f4df0.png" align="top" target="_blank"> Angular - Exercícios da primeira semana </h1>
+<h1 align="center"> <img width="40px" src="https://user-images.githubusercontent.com/112510971/223874201-427b7405-4ab0-4cfd-9b45-f3504d9f4df0.png" align="top" target="_blank"> Angular - Exercícios da segunda semana </h1>
 
 ## 📌 Sobre o Projeto
 
 ### Exercício 1:
 
-Crie um projeto utilizando o cli do angular e que utiliza o padrão SCSS para estilização.
+Crie um componente chamado "header" que será o menu de navegação da sua aplicação. Obs: Utilize o ng generate
 
 ### Exercício 2:
 
-No arquivo app.component.html coloque um texto do lorem ipsum: https://www.lipsum.com/
+Crie um componente do conteúdo principal da sua aplicação, o nome você pode escolher e no app.component.html ajuste para carregar seu nav e seu conteúdo principal.
+
+### Exercício 3:
+
+Crie um componente de rodapé e ajuste o seu app.component para carregar nav, conteúdo principal e rodapé.
+
+### Exercício 4:
+
+Crie um componente que contenha 2 parágrafos e 1 título do site https://www.lipsum.com/ e carregue ele no seu app.component também.
+
+### Exercício 5:
+
+Estilize o cabeçalho e rodapé do seu site.
 
 ## :point_right: Resultado:
 
-![image](https://user-images.githubusercontent.com/112510971/223874702-fc4f0073-a0c8-40fd-bfb5-4b4d86c93d20.png)
-
+![image](https://user-images.githubusercontent.com/112510971/225499025-da3a3ed4-2ff8-4dc8-9912-91630caaeede.png)
 
 
 ## Clone este repositório através do GIT:
 
 ```sh
-$ git clone https://github.com/brwnalima/Angular-exUm
+$ git clone https://github.com/brwnalima/Angular-exDois
 ```
 
 ## 👩🏾‍💻 Digite em seu terminal:
@@ -28,13 +39,13 @@ $ git clone https://github.com/brwnalima/Angular-exUm
 #### Entre no repositório
 
 ```sh
-cd primeiro-projeto
+cd segundo-projeto
 ```
 
 #### Inicie o projeto
 
 ```sh
-ng serve
+ng serve -o
 ```
 
 ## 📌 Ferramentas utilizadas:
